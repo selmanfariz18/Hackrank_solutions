@@ -106,3 +106,23 @@ You can find the problem statements and descriptions for these solutions by foll
         The Python code defines a function called solve, which takes a list of integers 'x' as input. It implements a solution to a mathematical problem involving permutations and missing elements. The code uses a Fenwick tree data structure to efficiently calculate the total cost of rearranging the elements in 'x' to form a specific sequence. The result is then written to an output file.
 
 ---
+
+### Super Reduced String
+
+- [Solution](./python/Super%20Reduced%20String.py)
+
+### - Explanation:
+
+        The code defines a function superReducedString that takes a string s as input and repeatedly removes adjacent matching characters until no more matches are found or the string becomes empty. If the final string is empty, it returns "Empty String"; otherwise, it returns the reduced string. The code uses a while loop to iterate through the string, checking for adjacent matching characters, and removes them until no more matches are found.
+
+---
+
+### Staircase
+
+- [Solution](./python/Staircase.py)
+
+### - Explanation:
+
+        The code defines a function staircase that takes an integer n as input. It prints a staircase pattern of height n using spaces and '#' symbols. It does this by iterating from 1 to n, printing spaces (n - i) times followed by '#' i times on each line. The main block reads the input integer n and calls the staircase function.
+
+---
