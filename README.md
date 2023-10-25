@@ -126,3 +126,13 @@ You can find the problem statements and descriptions for these solutions by foll
         The code defines a function staircase that takes an integer n as input. It prints a staircase pattern of height n using spaces and '#' symbols. It does this by iterating from 1 to n, printing spaces (n - i) times followed by '#' i times on each line. The main block reads the input integer n and calls the staircase function.
 
 ---
+
+### Gridland Provinces
+
+- [Solution](./python/Gridland%20Provinces.py)
+
+### - Explanation:
+
+        The provided Python script defines a function gridlandProvinces that calculates the number of unique provinces formed by two strings s1 and s2 by concatenating and overlapping them in various ways. It utilizes custom hashing techniques to efficiently count the provinces. The script reads input data and writes the results to an output file.
+
+---
