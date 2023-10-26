@@ -136,3 +136,54 @@ You can find the problem statements and descriptions for these solutions by foll
         The provided Python script defines a function gridlandProvinces that calculates the number of unique provinces formed by two strings s1 and s2 by concatenating and overlapping them in various ways. It utilizes custom hashing techniques to efficiently count the provinces. The script reads input data and writes the results to an output file.
 
 ---
+
+### Ashton and String
+
+- [Solution](./python/Ashton%20and%20String.py)
+
+### - Explanation:
+
+        The Python code defines a function ashtonString that calculates the k-th character of a modified version of a given string. It uses a data structure called a Suffix Array and Longest Common Prefix array to efficiently compute the result. The function takes an input string 's' and an integer 'k' and returns the k-th character of the modified string. The code reads the number of test cases, input strings, and 'k' values from standard input and writes the results to an output file.
+
+---
+
+### String Similarity
+
+- [Solution](./python/String%20Similarity.py)
+
+### - Explanation:
+
+        The code defines a function, string_similarity, which calculates the similarity of a string s to itself using the Z-algorithm. It iterates through the string, computing the length of the longest common prefix between the string and its substrings. The total similarity score is the sum of these lengths.
+
+
+---
+
+### Super Functional Strings
+
+- [Solution](./python/Super%20Functional%20Strings.py)
+
+### - Explanation:
+
+        The code computes super functional strings. It uses various functions to calculate values for given substrings in a string. It employs suffix arrays and longest common prefix to determine the common substrings in the input string and efficiently computes the desired results while considering character occurrences and powers modulo a given value.
+
+---
+
+### Save Humanity
+
+- [Solution](./python/Save%20Humanity.py)
+
+### - Explanation:
+
+        The Python script defines a function virusIndices that takes two input strings, 'text' and 'pattern'. It searches for occurrences of 'pattern' within 'text' and returns the starting indices of matches. The function uses a helper function 'match' to compare partial strings for potential matches. If there are no matches, it returns "No Match!" Otherwise, it returns the indices as a space-separated string. The code reads input test cases, calls the 'virusIndices' function, and prints the results.
+
+---
+
+### Find Strings
+
+- [Solution](./python/Find%20Strings.py)
+
+### - Explanation:
+
+        The Python code defines a program for finding common prefixes of words and returning them based on user queries. It uses a suffix array data structure to efficiently find these prefixes. The code reads input words, processes them, and then handles user queries to extract and print the desired common prefixes.
+
+---
