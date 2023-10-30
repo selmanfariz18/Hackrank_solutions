@@ -119,6 +119,7 @@ You can find the problem statements and descriptions for these solutions by foll
 
 ### Cards Permutation
 
+- [Problem statement](https://www.hackerrank.com/challenges/cards-permutation/problem)
 - [Solution](./python/Cards%20Permutation.py)
 
 ### - Explanation:
