@@ -30,6 +30,7 @@ You can find the problem statements and descriptions for these solutions by foll
 
 ### Sherlock and the Valid String
 
+- [Problem statement](https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem)
 - [Solution](./python/Sherlock%20and%20the%20Valid%20String.py)
 
 ### - Explanation:
