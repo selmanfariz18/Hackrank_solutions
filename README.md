@@ -101,6 +101,7 @@ You can find the problem statements and descriptions for these solutions by foll
 
 ### Build a String
 
+- [Problem statement](https://www.hackerrank.com/challenges/build-a-string/problem)
 - [Solution](./python/Build%20a%20String.py)
 
 ### - Explanation:
