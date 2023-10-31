@@ -47,6 +47,20 @@ You can find the problem statements and descriptions for these solutions by foll
 
 ---
 
+### Common Child
+
+- [Problem statement](https://www.hackerrank.com/challenges/common-child/problem)
+- [Solution](./python/Common%20Child.py)
+
+### - Explanation:
+
+        The code defines a function, commonChild, to find the length of the longest common child between two input strings, s1 and s2.
+        It uses dynamic programming to build a 2D table (dp) and iterates through the strings,
+        incrementing dp values for matching characters.
+        The final value in dp represents the answer, which is the length of the longest common child.
+
+---
+
 ### Sherlock and Anagrams
 
 - [Solution](./python/Sherlock%20and%20Anagrams.py)
@@ -61,18 +75,6 @@ You can find the problem statements and descriptions for these solutions by foll
         the same character frequency pattern.
         Finally, the function returns the count of anagrammatic pairs.
 
----
-
-### Common Child
-
-- [Solution](./python/Common%20Child.py)
-
-### - Explanation:
-
-        The code defines a function, commonChild, to find the length of the longest common child between two input strings, s1 and s2.
-        It uses dynamic programming to build a 2D table (dp) and iterates through the strings,
-        incrementing dp values for matching characters.
-        The final value in dp represents the answer, which is the length of the longest common child.
 
 ---
 

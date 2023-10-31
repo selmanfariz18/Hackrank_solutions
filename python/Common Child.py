@@ -92,7 +92,12 @@ def commonChild(s1, s2):
     m, n = len(s1), len(s2)
 
     # Create a 2D table to store the lengths of common child strings
-    dp = [[0] * (n + 1) for _ in range(m + 1)]
+    dp = []
+    for i in range(m + 1):
+        row = []
+        for j in range(n + 1):
+            row.append(0)
+        dp.append(row)
 
     for i in range(1, m + 1):
         for j in range(1, n + 1):
