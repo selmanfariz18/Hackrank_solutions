@@ -89,11 +89,22 @@ def isValid(s):
     char_count = {}
     for char in s:
         char_count[char] = char_count.get(char, 0) + 1
+        '''
+        if char in char_count:
+            char_count[char] += 1
+        else:
+            char_count[char] = 1
+        '''
 
     # Step 2: Count character frequency counts
     freq_count = {}
     for count in char_count.values():
         freq_count[count] = freq_count.get(count, 0) + 1
+        '''
+        if count not in freq_count:
+            freq_count[count] = 0
+        freq_count[count] += 1
+        '''
 
     # Step 3: Check if it's possible to make the string valid
     if len(freq_count) == 1:
