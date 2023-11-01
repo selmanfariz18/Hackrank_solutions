@@ -87,34 +87,33 @@ def isValid(s):
     # Write your code here
     # Step 1: Count character frequencies
     char_count = {}
-    for char in s:
+    frequency_count = {}
 
+    for char in s:
         if char in char_count:
             char_count[char] += 1
         else:
             char_count[char] = 1
 
-
-    # Step 2: Count character frequency counts
-    freq_count = {}
-    for count in char_count.values():
-
-        if count not in freq_count:
-            freq_count[count] = 0
-        freq_count[count] += 1
+        # Update freq_count
+        count = char_count[char]
+        if count in frequency_count:
+            frequency_count[count] += 1
+        else:
+            frequency_count[count] = 1
 
 
     # Step 3: Check if it's possible to make the string valid
-    if len(freq_count) == 1:
+    if len(frequency_count) == 1:
         # All characters have the same frequency
         return "YES"
-    elif len(freq_count) == 2:
+    elif len(frequency_count) == 2:
         # Check if one of the conditions is met
-        freq_list = list(freq_count.keys())
-        freq1, freq2 = freq_list[0], freq_list[1]
-        count1, count2 = freq_count[freq1], freq_count[freq2]
+        frequency_list = list(frequency_count.keys())
+        frequency1, frequency2 = frequency_list[0], frequency_list[1]
+        count1, count2 = frequency_count[frequency1], frequency_count[frequency2]
 
-        if (count1 == 1 and (freq1 - 1 == freq2 or freq1 == 1)) or (count2 == 1 and (freq2 - 1 == freq1 or freq2 == 1)):
+        if (count1 == 1 and (frequency1 - 1 == frequency2 or frequency1 == 1)) or (count2 == 1 and (frequency2 - 1 == frequency1 or frequency2 == 1)):
             return "YES"
 
     return "NO"
